@@ -6,7 +6,7 @@ int main() {
     printf("Player 1, enter a number between 1 and 100: ");
     scanf("%d", &number);
 
-    printf("\n\n--- Now give the computer to Player 2 ---\n");
+    printf("\n\n--- Now give the computer to Player 2 and Player 1 cover the input number on the screen with your hands ---\n\n");
     printf("Player 2, try to guess the number!\n");
 
     while(1) {
@@ -37,3 +37,4 @@ int main() {
 
     return 0;
 }
+
