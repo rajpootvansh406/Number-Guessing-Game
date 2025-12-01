@@ -19,7 +19,7 @@ int main() {
             break;
         }
 
-        // Checking if close
+    
         int diff = number - guess;
         if(diff > 0 && diff <= 5) {
             printf("Close but low! Try again.\n");
@@ -37,4 +37,5 @@ int main() {
 
     return 0;
 }
+
 
